@@ -4,7 +4,7 @@ class A
     public:
 	 A(size_t n): size(n) { x = new int[n]; }
 	 A() { size=10; x = new int[10]; }
-	 ~A() { delete x; }
+	 ~A() { delete x; }	
 };
 
 void foo (A a);
